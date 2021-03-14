@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Redressed', cursive;
+    background-image: linear-gradient(to bottom right, #EFB7BA, #CBD5F0);
+}
+
+/* .quote {
+    width: 20rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    height: 20rem;
+} */
+.quote-box {
+    background: #fff !important;
+    /* font-family: 'Redressed', cursive; */
+    width: 21rem;
+    height: 25rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin: 10rem auto;
+    padding: 3rem;
+    border-radius: 5px;
+}
+
+#text {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+#author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1rem;
+    color: #194F92;
+}
